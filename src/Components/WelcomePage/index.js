@@ -6,7 +6,7 @@ function WelcomePage({ user, setIsLoggedIn }) {
   return (
     <div>
       <h2>Bem Vindo {user} </h2>
-      <button class="Button Button--Logout" onClick={HandleLogout}>
+      <button className="Button Button--Logout" onClick={HandleLogout}>
         Logout
       </button>
     </div>
